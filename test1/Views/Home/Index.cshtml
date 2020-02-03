@@ -1,0 +1,596 @@
+﻿
+@{
+    ViewData["Title"] = "Homes";
+}
+
+<style>
+    #mainSlider {
+        height: 90vh;
+    }
+
+    #mainSlider-List > .carousel-item > img {
+        opacity: .9;
+        background: black;
+    }
+
+    #mainSlider-List > .carousel-item {
+        height: 90vh;
+        background: no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #mainSlider-List > .carousel-caption {
+        background: rgba(0,0,0,.7);
+        opacity: .9;
+        position: sticky;
+    }
+
+    .my-card {
+        position: absolute;
+        left: 40%;
+        top: -20px;
+        border-radius: 50%;
+        width: 20%;
+    }
+</style>
+
+<div id="mainSlider" class="carousel slide w-100 h-100" style="" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+        @for (int i = 1; i < ViewBag.appFieldList.Count; i++)
+        {
+            <li data-target="#mainSlider" data-slide-to="@i"></li>
+        }
+
+        <li data-target="#mainSlider" data-slide-to="@ViewBag.appFieldList.Count"></li>
+    </ol>
+    <div class="carousel-inner" id="mainSlider-List">
+        <div class="carousel-item active">
+            <img src="~/lib/images/app/@ViewBag.appFieldList[0].path/@ViewBag.appFieldList[0].images[0]" class="h-100 w-100">
+            <div class="carousel-caption d-sm-flex flex-column d-md-block animated slideInRight">
+                <h2 class="flex-grow-1">@ViewBag.appFieldList[0].name</h2>
+                <p class="flex-grow-1">deneme</p>
+                <div><a href="/@SharedHtmlLocalizer["Menu.Application"]/@ViewBag.appFieldList[0].name" class="nav-item p-2" style="text-decoration:none;border:1px;border-radius:5px;">Daha Fazlası İçin</a></div>
+            </div>
+        </div>
+        @for (int i = 1; i < ViewBag.appFieldList.Count; i++)
+        {
+            <div class="carousel-item">
+                <img src="~/lib/images/app/@ViewBag.appFieldList[i].path/@ViewBag.appFieldList[i].images[0]" class="h-100 w-100" style="max-height:600px; opacity:.5;">
+                <div class="carousel-caption d-sm-flex flex-column d-md-block animated slideInRight">
+                    <h2 class="flex-grow-1">@ViewBag.appFieldList[i].name</h2>
+                    <p class="flex-grow-1">deneme</p>
+                    <div><a href="/@SharedHtmlLocalizer["Menu.Application"]/@ViewBag.appFieldList[i].name" class="nav-item p-2" style="text-decoration:none;border:1px;border-radius:5px;">Daha Fazlası İçin</a></div>
+                </div>
+            </div>
+        }
+
+        <div class="carousel-item ">
+            <img src="~/lib/images/arıtma.png" class="h-100 w-100">
+            <div class="carousel-caption d-sm-flex flex-column fa-pull-right d-md-block animated slideInDown">
+                <h2 class="flex-grow-1">Taşıt Yıkama için Arıtma Sistemleri</h2>
+                <p class="flex-grow-1">
+                    Besleme suyunun arıtılması ise %99 renksiz, kokusuz ve lekesiz su ile araçlarınızın kaporta camlarında lekeler kalmaması için üretiyoruz.
+                </p>
+                <div><a href="#" class="nav-item p-2" style="text-decoration:none;border:1px;border-radius:5px;">Daha Fazlası İçin</a></div>
+            </div>
+        </div>
+
+
+    </div>
+    <a class="carousel-control-prev nav-item" href="#mainSlider" role="button" data-slide="prev">
+        <i class="fas fa-chevron-circle-left fa-slider"></i>
+    </a>
+    <a class="carousel-control-next nav-item" href="#mainSlider" role="button" data-slide="next">
+        <i class="fas fa-chevron-circle-right fa-slider"></i>
+    </a>
+</div>
+
+<style>
+    .tab-pane {
+    }
+
+    .g-recaptcha {
+        transform-origin: left top;
+        -webkit-transform-origin: left top;
+    }
+</style>
+
+@*PRODUCT CONTENT*@
+<section class="container-fluid">
+    <h1 class="text-center">@SharedHtmlLocalizer["Index.Product.InfoHead"]</h1>
+    <div class="col-md-12 ">
+        <nav class="">
+            <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-Royal-tab" data-toggle="tab" href="#nav-Royal" role="tab" aria-controls="nav-Royal" aria-selected="true">@SharedHtmlLocalizer["Index.Product.RoyalName"]</a>
+                <a class="nav-item nav-link" id="nav-Salus-tab" data-toggle="tab" href="#nav-Salus" role="tab" aria-controls="nav-Salus" aria-selected="false">@SharedHtmlLocalizer["Index.Product.SalusName"]</a>
+                <a class="nav-item nav-link" id="nav-Airmatik-tab" data-toggle="tab" href="#nav-Airmatik" role="tab" aria-controls="nav-Airmatik" aria-selected="false">@SharedHtmlLocalizer["Index.Product.AirmaticName"]</a>
+            </div>
+        </nav>
+        <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+            <div class="tab-pane fade show active " id="nav-Royal" role="tabpanel" aria-labelledby="nav-Royal-tab">
+                <div class="row animated bounceInUp productTab-md">
+                    <div class="col-md-8 p-0">
+                        <div class="d-md-flex py-1 animated bounceInLeft" id="productINFO">
+                            <div class="container d-flex flex-column my-2">
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info1"]
+                                        <span style="color:red;">  @SharedHtmlLocalizer["Index.Product.InfoRed1"]</span>
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info2"]     @SharedHtmlLocalizer["Index.Product.Info3"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info4"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info5"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info6"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info7"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info8"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info9"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Royal1"]
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-md-4 p-0">
+                        <div class="text-center tabBgCard w-100 h-100">
+                            <img src="~/lib/images/machine/royalyikama/3.png" class="height-avaible p-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-Salus" role="tabpanel" aria-labelledby="nav-Salus-tab">
+                <div class="row animated bounceInUp">
+                    <div class="col-md-4 p-0">
+                        <div class="text-center tabBgCard w-100 h-100">
+                            <img src="~/lib/images/machine/salusyikama/2.png" class="height-avaible p-2">
+                        </div>
+                    </div>
+                    <div class="col-md-8 p-0">
+                        <div class="d-md-flex py-1 " id="productINFO">
+                            <div class="container d-flex flex-column my-2">
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info1"]
+                                        <span style="color:red;">  @SharedHtmlLocalizer["Index.Product.InfoRed1"]</span>
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info2"]     @SharedHtmlLocalizer["Index.Product.Info3"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info4"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info5"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info6"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info7"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info8"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info9"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Royal1"]
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-Airmatik" role="tabpanel" aria-labelledby="nav-Airmatik-tab">
+                <div class="row  animated bounceInUp productTab-md">
+                    <div class="col-md-8 p-0">
+                        <div class="d-md-flex py-1 animated bounceInLeft" id="productINFO">
+                            <div class="container d-flex flex-column my-2">
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info1"]
+                                        <span style="color:red;">  @SharedHtmlLocalizer["Index.Product.InfoRed1"]</span>
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info3"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info4"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info5"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info6"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Info7"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Airmatik.info1"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Airmatik.info2"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Airmatik.info3"]
+                                    </span>
+                                </div>
+                                <div class="ContentText mx-2 py-1">
+                                    <i class="fas fa-chevron-circle-right iconCon"></i>
+                                    <span class="ml-2">
+                                        @SharedHtmlLocalizer["Index.Product.Airmatik.info4"]
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-md-4 p-0">
+                        <div class="text-center tabBgCard w-100 h-100">
+                            <img src="~/lib/images/machine/otosupurge/1.png" class="height-avaible p-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@*otomasyon*@
+<section class="container-fluid mt-5 d-lg-flex flex-column">
+    <div class="text-center animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="0">
+        <h1 class="">Kronos Tech Otomasyon</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-6 my-auto">
+            <img src="~/lib/images/otomasyonbg1.jpg" class="w-100 my-auto" style="height:50vh; max-height:450px;" />
+        </div>
+        <div class="col-md-6 my-auto">
+            <h4 class="text-center HeadText">KRONOS TECH Otomasyonu</h4>
+            <div class="ContentText m-1 py-1 px-0">
+                <a class="m-1 p-1">
+                    Kronostech markası altında üretilen bütün makinelerde bulunan veri izleme sistemi ile birlikte istasyon marketine konulan
+                    PLC sistemiyle kablosuz olarak makinelerle haberleşme sağlanarak cihaz hakkında bütün veriler merkezimizde bulunan ana serverda toplanmaktadır.
+                    Ana serverda toplanan bu verileri, istasyon için tanımlanan kullanıcı adı ve şifresiyle birlikte yetkili kişi dilerse bilgisayar üzerinden web ortamında
+                    dilerse mobil cihazlardan istediği yerden istediği her an makinelerin son durumuyla alakalı bütün verileri anında görebilmektedir.
+                    Bu yazılım sayesinde yetkili; cihazlarda arıza olup olmadığını, o ana kadar gün içerisinde makinelerde ne kadar para biriktiğini ve cihazların servis
+                    zamanlarını kolaylıkla görebilmektedir. Aynı zamanda geriye dönük haftalık, aylık, yıllık veya istenilen zaman aralığında
+                    cihazlarda ne kadar para biriktiğini görebilir. Yazılım bu verileri istatistiki tablo haline getirerek zaman içerisinde cihazlarda biriken
+                    tutarın artış ve azalışını çizelge halinde görebilmektedir. Üstelik bu verileri pdf, excel veya jpeg formatında bilgisayarınıza kaydederek raporlama yapabilirsiniz.
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row ">
+        <div class="col-md-4">
+            <div class="m-2">
+                <h4 class="text-center"><i class="fas fa-tasks mr-2 iconBtn"></i>Yönetim</h4>
+                <div>
+                    <div class="ContentText m-1 py-1 pl-0 pr-0">
+                        <a class="my-1 ml-lg-1 py-1 ">
+                            <i class="fas fa-chevron-circle-right mr-2" style="color: rgba(0,125,190,.2);"></i><span>
+                                Makine ödeme aldığında merkez sunucuya veriyi
+                                aktarmaktadır, bu sayede makine takibi Bayi ve
+                                İstasyonlar tarafından anlık olarak raporlanabilir.
+                            </span>
+                        </a>
+                    </div>
+                    <div class="ContentText m-1 py-1 pl-0 pr-0">
+                        <a class="my-1 ml-lg-1 py-1 ">
+                            <i class="fas fa-chevron-circle-right mr-2" style="color: rgba(0,125,190,.2);"></i><span>
+                                Kasa kapasitesi dolduğunda merkeze bildirim
+                                yapılmaktadır.
+                            </span>
+                        </a>
+                    </div>
+                    <div class="ContentText m-1 py-1 pl-0 pr-0">
+                        <a class="my-1 ml-lg-1 py-1 ">
+                            <i class="fas fa-chevron-circle-right mr-2 iconCon"></i><span>
+                                Otomasyon yazılımı ile makinelerin çalışma fiyatları değiştirilebilir.
+                            </span>
+                        </a>
+                    </div>
+                    <div class="ContentText m-1 py-1 pl-0 pr-0">
+                        <a class="my-1 ml-lg-1 py-1 ">
+                            <i class="fas fa-chevron-circle-right mr-2" style="color: rgba(0,125,190,.2);"></i><span>
+                                Uygun ödeme yöntemleri makinelere entegre edilebilir.(Herhangi anlaşmalı kart, barkod veya QR code sistemleri)
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="m-2">
+                <h4 class="text-center"><i class="fas fa-window-restore mr-2 iconBtn"></i>Raporlama</h4>
+                <div>
+                    <div class="ContentText m-1 py-1 pl-0 pr-0">
+                        <a class="my-1 ml-lg-1 py-1 ">
+                            <i class="fas fa-chevron-circle-right mr-2" style="color: rgba(0,125,190,.2);"></i><span>
+                                Ana serverda toplanan verileri, kullanıcı girişi yaparak istatistiki tablolar üzerinden takip ve analizlerini izleyebilirsiniz.
+                                Kasa aç/kapa , Makine arıza, Elektrik ve su gideri, ayrı ayrı her makine için gelir verisini otomasyon sitemizden izleyebilirsiniz.
+                                Bununla beraber verileri pdf, excel veya jpeg formatında çıktılarınızı cihazınıza indirebilirsiniz.
+                            </span>
+                        </a>
+                    </div>
+                    <div class="ContentText m-1 py-1 pl-0 pr-0">
+                        <a class="my-1 ml-lg-1 py-1 ">
+                            <i class="fas fa-chevron-circle-right mr-2" style="color: rgba(0,125,190,.2);"></i><span>
+                                Kasa aç/kapa , Makine arıza, Elektrik ve su gideri, ayrı ayrı her makine için gelir verisini otomasyon sitemizden izleyebilirsiniz.
+                                Bununla beraber verileri pdf, excel veya jpeg formatında çıktılarınızı cihazınıza indirebilirsiniz.
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="m-2">
+                <h4 class="text-center"><i class="fas fa-unlock-alt mr-2 iconBtn"></i>Güvenlik</h4>
+                <div>
+                    <div class="ContentText m-1 py-1 pl-0 pr-0">
+                        <a class="my-1 ml-lg-1 py-1 ">
+                            <i class="fas fa-chevron-circle-right mr-2" style="color: rgba(0,125,190,.2);"></i><span>
+                                Makinelerimizde kullanılan para okuyucular sahte para ve cisimleri ayırt edebilir. Makinelerimizde Kale Kilit marka kilit sistemi mevcuttur.
+                            </span>
+                        </a>
+                    </div>
+                    <div class="ContentText m-1 py-1 pl-0 pr-0">
+                        <a class="my-1 ml-lg-1 py-1 ">
+                            <i class="fas fa-chevron-circle-right mr-2" style="color: rgba(0,125,190,.2);"></i><span>
+                                Para kasası açıldığınde sisteme bildirim düşmekte ve kasanın açılış kapanış tarihlerini takip altına alıyourz.
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="m-2">
+                <h4 class="text-center"> <i class="fas fa-tablet-alt mr-2 iconBtn"></i> Ortam</h4>
+                <div>
+                    <div class="ContentText m-1 py-1 pl-0 pr-0">
+                        <a class="my-1 ml-lg-1 py-1 ">
+                            <i class="fas fa-chevron-circle-right mr-2 iconCon"></i><span>
+                                Bilgisayar,tablet ve telefon cihazlarından otomasyona erişim sağlayıp işlemlerinizi kolaylıkla sağlayabilirsiniz.
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery-container">
+        <div class="row tz-gallery">
+            <div class="col-md-6">
+                <div class="justify-content-center align-self-center">
+                    <div class="card">
+                        <a class="lightbox" href="~/lib/images/otomasyon1.jpg">
+                            <img src="~/lib/images/otomasyon1.jpg" alt="Park" class="card-img-top ">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="justify-content-center align-self-center">
+                    <div class="card">
+                        <a class="lightbox" href="~/lib/images/otomasyon3.jpg">
+                            <img src="~/lib/images/otomasyon3.jpg" alt="Park" class="card-img-top ">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="justify-content-center align-self-center">
+                    <div class="card">
+                        <a class="lightbox" href="~/lib/images/otomasyon2.jpg">
+                            <img src="~/lib/images/otomasyon2.jpg" alt="Park" class="card-img-top ">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@*ABOUT*@
+<div class="container-fluid mt-5" id="About">
+    <div class="text-center animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="0">
+        <h1>@SharedHtmlLocalizer["About.MainTitle"]</h1>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-12 my-auto">
+            <h5>@SharedHtmlLocalizer["About.MainTitle"]</h5>
+            <p>“@SharedHtmlLocalizer["Menu.Slogan"].”</p>
+            <p>
+                @SharedHtmlLocalizer["About.p1"]
+            </p>
+            <p>
+                @SharedHtmlLocalizer["About.p2"]
+            </p>
+            <p>
+                @SharedHtmlLocalizer["About.p3"]
+            </p>
+        </div>
+        <div class="col-lg-6 col-md-12 my-auto">
+            <div id="aboutSlider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#aboutSlider" data-slide-to="0" class="active"></li>
+                    <li data-target="#aboutSlider" data-slide-to="1"></li>
+                    <li data-target="#aboutSlider" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="~/lib/images/ekip3.png" class="d-block w-100 " alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/lib/images/ekip2.png" class="d-block w-100 " alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/lib/images/ekip1.png" class="d-block w-100 " alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev nav-item" href="#aboutSlider" role="button" data-slide="prev">
+                    <i class="fas fa-chevron-circle-left fa-4x"></i>
+                </a>
+                <a class="carousel-control-next nav-item" href="#aboutSlider" role="button" data-slide="next">
+                    <i class="fas fa-chevron-circle-right fa-4x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@*OTHER COMPANY*@
+<div class="container-fluid mt-5">
+    <div class="col-md-12 text-center animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="0">
+        <h1>MARKALARIMIZ</h1>
+    </div>
+    <div class="row d-flex flex-sm-column flex-md-row d-md-flex mx-auto justify-content-center">
+        <div class="col-md-3 col-sm-6 flex-grow-1 mx-auto">
+            <div class="row  flex-grow-1 justify-content-center mx-auto ">
+                <div class="card text-center bg-transparent border-0">
+                    <div class="card-body">
+                        <img class="card-img bg-dark px-2" src="~/lib/images/logoKronos.png" />
+                        <h5 class=" HeadText my-1">KRONOS ENERJİ</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 flex-grow-1  mx-auto">
+            <div class="row flex-grow-1 justify-content-center mx-auto ">
+                <div class="card text-center bg-transparent border-0">
+                    <div class="card-body ">
+                        <img class="card-img bg-dark" src="~/lib/images/hera.png" />
+                        <h5 class="HeadText my-1">KRONOS KİMYA</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 flex-grow-1 mx-auto">
+            <div class="row  flex-grow-1  justify-content-center mx-auto">
+                <div class="card text-center bg-transparent border-0">
+                    <div class="card-body">
+                        <img class="card-img bg-dark" src="~/lib/images/drinkcup.png" />
+                        <h5 class=" HeadText my-1">KRONOS KAHVE</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 flex-grow-1 mx-auto">
+            <div class="row  flex-grow-1 justify-content-center mx-auto">
+                <div class="card text-center bg-transparent border-0">
+                    <div class="card-body">
+                        <img class="card-img bg-dark" src="~/lib/images/hora.png" />
+                        <h5 class=" HeadText my-1">KRONOS MERMER</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>

@@ -1,0 +1,62 @@
+﻿@model IEnumerable<test1.Models.Product>
+@{
+    ViewData["Title"] = @SharedHtmlLocalizer["Product.MainTitle"];
+}
+
+<div class="container-fluid">
+    <div class="row">
+        @*LEFT MENU*@
+        <div class="col-md-3">
+            <div class="container d-flex flex-column flex-wrap">
+                <button class="navbar-toggler justify-content-center mt-3 d-md-none" type="button" data-toggle="collapse" data-target="#sidebarE" aria-controls="sidebarE" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="m-0 p-2 ContentText">
+                        <i class="fas fa-bars iconBtn"></i>
+                       @SharedHtmlLocalizer["Product.CollapseButton"]
+                    </span>
+                </button>
+                @*MENU CONTENT*@
+                <div class="collapse leftMenu d-lg-table d-md-flex mx-auto m-2 mt-lg-4 mt-md-1 " id="sidebarE">
+                    <div class="d-flex flex-column justify-content-center my-2">
+
+                        @foreach (var item in Model)
+                        {
+                            <div class="leftMenu-item ContentText m-1 py-1 pl-0 pr-0">
+                                <a href="/@SharedHtmlLocalizer["Menu.Product"]/@item.id.ToString()"><i class="fas fa-cogs mx-2 iconBtn"></i>@item.name</a>
+                            </div>
+                        }
+
+                        <div class="leftMenu-item ContentText m-1 py-1">
+                            <a href="http://www.kronoskimya.com/"><i class="fas fa-cogs mx-2 iconBtn"></i>@SharedHtmlLocalizer["Product.Left.Hera"]</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        @*PRODUCT LAYER*@
+        <div class="col-md-9 col-sm-12 d-flex flex-lg-row flex-wrap justify-content-center my-5">
+
+            @foreach (var item in Model)
+            {
+                <div class="p-3 m-2 col-md-4 col-lg-4 col-xl-3 text-center ShowBox position-relative ">
+                    <a href="/@SharedHtmlLocalizer["Menu.Product"]/@item.id.ToString()">
+                        <img src="~/lib/images/machine/@item.path/@item.images[0]" >
+                        <div class="position-absolute bg-light ShowBoxHover"></div>
+                    </a>
+                    <div class="ContentText mt-3" >@item.name</div>
+                </div>
+            }
+            @foreach (var item in Model)
+            {
+                <div class="p-3 m-2 col-md-4 col-lg-4 col-xl-3 text-center ShowBox position-relative ">
+                    <a href="/@SharedHtmlLocalizer["Menu.Product"]/@item.id.ToString()">
+                        <img src="~/lib/images/machine/@item.path/@item.images[0]">
+                        <div class="position-absolute bg-light ShowBoxHover"></div>
+                    </a>
+                    <div class="ContentText mt-3">@item.name</div>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>

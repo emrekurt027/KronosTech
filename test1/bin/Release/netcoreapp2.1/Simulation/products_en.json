@@ -1,0 +1,225 @@
+﻿[
+  //royalyikama
+  {
+    "id": 1,
+    "name": "ROYAL Self Foam & Wash",
+    "path": "royalyikama",
+    "images": [ "1.png","2.png","3.png","4.png" ],
+    "info": [
+      "Works with coin, Manual START/STOP; also rejects fake coin.",
+      "Foam and Washing can wır seperately with the help of different automation system.",
+      "2 different safe boxes for each Foam and Washing stations.",
+      "There is non-resertable 2 different numerators so can each stations can be tracked sperately that how many vehicles are served (Optional).",
+      "There is 200 bar pumu made in Italy or Turkey.",
+      "There is safety switch that interrupts pum and motor, if trigger is not pressed. (Optional)",
+      "Water consumption is 15 liters per minute and total cost with electiricity is almost 30 cf for each vehicle.(for 3 min. service time)",
+      "There is a 100 Lt tank capacity inside. Working pressure is 5 bar.",
+      "Minimum 35 vehicles can be foamed at each filling.(For 75 sec. service time)",
+      "Total cost with foam and electricity is maximum 20 cf for each vehicle. (for 75 sec. service time)",
+      "*Price differs for optionals"
+    ],
+    "infotech": [
+      {
+        "dataName": "Voltage",
+        "dataVal": "Three-phase 380V./50-60 Hz."
+      },
+      {
+        "dataName": "CoinReader",
+        "dataVal": "2 independent mechanical"
+      },
+      {
+        "dataName": "Timer",
+        "dataVal": "2 unit 1-6 Minute"
+      },
+      {
+        "dataName": "Security",
+        "dataVal": "Outside:2 cabin locks; İnside 2 lockable metal safes"
+      },
+      {
+        "dataName": "Cabin",
+        "dataVal": "Electrostatic Paint on Galvanized Steel, ABS Cap(Chrome Optional)"
+      },
+      {
+        "dataName": "Pump",
+        "dataVal": "Ozmen (Made in Turkey, With ISO 9001 quality assurance) / Interpump brand Italian pump"
+      },
+      {
+        "dataName": "PumpPressure",
+        "dataVal": "200 Bar/ 250 Bar"
+      },
+      {
+        "dataName": "WaterConsumption",
+        "dataVal": "15 lt/min"
+      },
+      {
+        "dataName": "MotorPower",
+        "dataVal": "5 Kw, 7.5 Hp"
+      },
+      {
+        "dataName": "PumpSecurity",
+        "dataVal": "Regulator with By-pass"
+      },
+      {
+        "dataName": "YGun",
+        "dataVal": "Manual/Trigger Control"
+      },
+      {
+        "dataName": "KGun",
+        "dataVal": "Trigger Control"
+      },
+      {
+        "dataName": "YHose",
+        "dataVal": "10M. ,R2 Doybke steel wire braided."
+      },
+      {
+        "dataName": "KHose",
+        "dataVal": "8M."
+      },
+      {
+        "dataName": "TankCapacity",
+        "dataVal": "90Lt."
+      },
+      {
+        "dataName": "FoamTank",
+        "dataVal": "Electrostatic Paint on Plastering Steel"
+      }
+    ]
+  },
+  //Salusyikama
+  {
+    "id": 2,
+    "name": "Salus Foam & Wash",
+    "path": "salusyikama",
+    "images": [ "1.png", "2.png", "3.png"],
+    "info": [
+      "Works with coin, Manual START/STOP; also rejects fake coin.",
+      "Foam and Washing can wır seperately with the help of different automation system.",
+      "2 different safe boxes for each Foam and Washing stations.",
+      "There is non-resertable 2 different numerators so can each stations can be tracked sperately that how many vehicles are served (Optional).",
+      "There is 200 bar pumu made in Italy or Turkey.",
+      "There is safety switch that interrupts pum and motor, if trigger is not pressed. (Optional)",
+      "Water consumption is 15 liters per minute and total cost with electiricity is almost 30 cf for each vehicle.(for 3 min. service time)",
+      "There is a 100 Lt tank capacity inside. Working pressure is 5 bar.",
+      "Minimum 35 vehicles can be foamed at each filling.(For 75 sec. service time)",
+      "Total cost with foam and electricity is maximum 20 cf for each vehicle. (for 75 sec. service time)",
+      "*Price differs for optionals"
+    ],
+    "infotech": [
+      {
+        "dataName": "Voltage",
+        "dataVal": "Three-phase 380V./50-60 Hz."
+      },
+      {
+        "dataName": "CoinReader",
+        "dataVal": "2 Adet Bağımsız Mekanik"
+      },
+      {
+        "dataName": "Timer",
+        "dataVal": "2 Adet 1-6 Dakika"
+      },
+      {
+        "dataName": "Security",
+        "dataVal": "Dış:2 Adet Kabin; İç 2 Adet Kilitli"
+      },
+      {
+        "dataName": "Cabin",
+        "dataVal": "Galvaniz Sac üzeri Elektrostatik Fırın Boya ,ABS KAPAK (Krom Opsiyon)"
+      },
+      {
+        "dataName": "Pump",
+        "dataVal": "Özmen ( Yerli üretim, ISO 9001 Kalite güvencesiyle) veya Interpump marka Italyan pompa"
+      },
+      {
+        "dataName": "PumpPressure",
+        "dataVal": "200 Bar/ 250 Bar"
+      },
+      {
+        "dataName": "WaterConsumption",
+        "dataVal": "15 lt/min"
+      },
+      {
+        "dataName": "MotorPower",
+        "dataVal": "5 Kw, 7.5 Hp"
+      },
+      {
+        "dataName": "PumpSecurity",
+        "dataVal": "By-pass sistemli Regülatör"
+      },
+      {
+        "dataName": "YGun",
+        "dataVal": "Manuel/Tetikli"
+      },
+      {
+        "dataName": "KGun",
+        "dataVal": "Tetikli Kumandalı"
+      },
+      {
+        "dataName": "YHose",
+        "dataVal": "10M. ,R2 çift kat çelik tel örgü"
+      },
+      {
+        "dataName": "KHose",
+        "dataVal": "8M."
+      },
+      {
+        "dataName": "TankCapacity",
+        "dataVal": "90Lt."
+      },
+      {
+        "dataName": "FoamTank",
+        "dataVal": "Sıvama Sac üzeri Elektrostatik Fırın Boya"
+      }
+    ]
+  },
+  //OTO SÜPÜRGE
+  {
+    "id": 3,
+    "name": "Vacuum & Airmatic",
+    "path": "otosupurge",
+    "images": [ "1.png"],
+    "info": [
+      "Works with coin, Manual START/STOP; also rejects fake coin.",
+      "There is a time relay, adjustable from 1-6 minute.",
+      "There is non-resertable 2 different numerators so can each stations can be tracked sperately that how many vehicles are served (Optional).",
+      "70 Lt. stainless dust tank inside with special PP flange engaged felt bag.",
+      "3.600 Watt suction power by 3 wet/dry motors",
+      "Total cost is maximum 10 cf for each vehicle (For 4 min. service time)",
+      "*Price differs for optionals."
+    ],
+    "infotech": [
+      {
+        "dataName": "Voltage",
+        "dataVal": "Mono-phase 230V./50-60 Hz."
+      },
+      {
+        "dataName": "Suction",
+        "dataVal": "3.600 W (1200W x 3 Motor (3 Fan))"
+      },
+      {
+        "dataName": "CoinReader",
+        "dataVal": "Mechanic"
+      },
+      {
+        "dataName": "Timer",
+        "dataVal": "1-6 Minute"
+      },
+      {
+        "dataName": "Security",
+        "dataVal": "Outside:2 cabinet locks, Inside: lockable metal safe"
+      },
+      {
+        "dataName": "Cabin",
+        "dataVal": "Electrostatic Paint on Galvanized Steel, ABS Cap "
+      },
+      {
+        "dataName": "Hose",
+        "dataVal": "3 M. Triplex"
+      },
+      {
+        "dataName": "TankCapacity",
+        "dataVal": "70 Lt., Stainless Stell."
+      }
+    ]
+  }
+
+]

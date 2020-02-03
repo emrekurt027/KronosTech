@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewData["Title"] = "Mission";
+}
+
+<style>
+    .selectProduct {
+        border-left: 3px solid white;
+        background: rgba(0,125,190,.2);
+        margin-left: -3px;
+    }
+</style>
+
+<div class="container-fluid">
+    <div class="row">
+        @*LEFT MENU*@
+        <div class="col-md-3">
+            <div class="container d-flex flex-column flex-wrap">
+                <button class="navbar-toggler justify-content-center mt-3 d-md-none" type="button" data-toggle="collapse" data-target="#sidebarE" aria-controls="sidebarE" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="m-0 p-2 ContentText">
+                        <i class="fas fa-bars iconBtn"></i>
+                        @SharedHtmlLocalizer["Product.CollapseButton"]
+                    </span>
+                </button>
+                @*MENU CONTENT*@
+                <div class="collapse leftMenu d-lg-table d-md-flex mx-auto m-2 mt-lg-4 mt-md-1 " id="sidebarE">
+                    <div class="d-flex flex-column justify-content-center my-2">
+                        <div class="leftMenu-item ContentText m-1 py-1 pl-0 pr-0">
+                            <a href="/@SharedHtmlLocalizer["Menu.About"]"><i class="fas fa-cogs mx-2 "></i>@SharedHtmlLocalizer["Menu.About"]</a>
+                        </div>
+                        <div class="leftMenu-item ContentText m-1 py-1 pl-0 pr-0">
+                            <a href="/@SharedHtmlLocalizer["Menu.Vision"]"><i class="fas fa-cogs mx-2 pl-1"></i>@SharedHtmlLocalizer["Menu.Vision"]</a>
+                        </div>
+                        <div class="leftMenu-item ContentText m-1 py-1 pl-0 pr-0">
+                            <a href="/@SharedHtmlLocalizer["Menu.Enviroment-Quality"]"><i class="fas fa-cogs mx-2 "></i>@SharedHtmlLocalizer["Menu.Enviroment-Quality"]</a>
+                        </div>
+                        <div class="leftMenu-item ContentText m-1 py-1 pl-0 pr-0">
+                            <a href="/@SharedHtmlLocalizer["Menu.SECG"]"><i class="fas fa-cogs mx-2 "></i>@SharedHtmlLocalizer["Menu.SECG"] </a>
+                        </div>
+                        <div class="leftMenu-item ContentText m-1 py-1 pl-0 pr-0">
+                            <a href="/@SharedHtmlLocalizer["Menu.Reference"]"><i class="fas fa-cogs mx-2 "></i>@SharedHtmlLocalizer["Menu.Reference"]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        @*PRODUCT LAYER*@
+        <div class="col-md-9 d-flex flex-column  mt-5">
+            <h5 class="HeadText selectProduct pl-3">Vizyonumuz</h5>
+            <p class="ContentText"> Kurumsal iş ve kaliteli hizmet anlayışımızı teknolojik yenilikler ile bütünleştirerek SEÇ-G kurallarından ayrılmadan;</p>
+            <p class="ContentText"> <i class="fas fa-chevron-circle-right mr-2 iconCon"></i>Müşterilerimizin ihtiyaç ve beklentilerini tespit ederek, müşteri memnuniyetini en üst düzeyde karşılamak,</p>
+            <p class="ContentText"> <i class="fas fa-chevron-circle-right mr-2 iconCon"></i>Ülke genelinde yaygın bayi ağımızla tercih edilen marka olmak,</p>
+            <p class="ContentText"> <i class="fas fa-chevron-circle-right mr-2 iconCon"></i>Verimliliğin arttırılması için teknolojideki gelişmeleri izlemek,</p>
+            <p class="ContentText"> <i class="fas fa-chevron-circle-right mr-2 iconCon"></i>Etkin ve hızlı iletişim ile tesis, bayi, müşteri, çalışan arasındaki bilgi akışını sağlamak.</p>
+        </div>
+
+    </div>
+</div>
+
+
+

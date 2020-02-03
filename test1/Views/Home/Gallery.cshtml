@@ -1,0 +1,21 @@
+﻿@model IEnumerable<test1.Models.GalleryModel>
+@{
+    ViewData["Title"] = @SharedHtmlLocalizer["Menu.Gallery"];
+}
+
+<div class="container-fluid">
+    <div class="row">     
+        <div class="col-md-12 col-sm-12 d-flex flex-lg-row flex-wrap justify-content-center my-5">
+            @foreach (var item in Model)
+            {
+                <div class="p-2 m-2  text-center ShowBox position-relative ">
+                    <a href="/Galeri/@item.id.ToString()" style="width:200px;">
+                        <img src="~/lib/images/gallery/@item.path/@item.images[0]" class="h-75">
+                        <div class="position-absolute bg-light ShowBoxHover"></div>
+                    </a>
+                    <div class="ContentText mt-2" style="max-width:200px;">@item.name</div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

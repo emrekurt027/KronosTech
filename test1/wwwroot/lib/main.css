@@ -1,0 +1,385 @@
+﻿
+/*Mobile Desing*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255,255,255,.9);
+    font-size: 12px;
+    line-height: 1.4rem;
+    background-color: rgba(20, 19, 17,1);
+}
+.selectProduct {
+    border-left: 3px solid white;
+    background: rgba(0,125,190,.2);
+    margin-left: -3px;
+}
+
+.tabBgCard {
+    background-color:rgba(255,255,255,.025);
+    border-radius:15px; 
+    max-height:400px; 
+    min-width:200px;
+}
+.fillavailable {
+    height: -webkit-fill-available;
+}
+.iconCon {
+    color: rgba(0,125,190,.2);
+}
+.iconBtn {
+    color: rgba(0,128,191,1);
+}
+.HeadText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgba(255,255,255,.8);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.ContentText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: rgba(255,255,255,.8);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#LangMenu{
+    margin:10px 0;
+}
+.fa-slider {
+    font-size: 2.5em;
+}
+#topButton {
+    display: inline-block;
+    background-color: rgba(0,128,191,1);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    padding: 5px 0;
+    bottom: 20px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+    #topButton::after {
+        line-height: 40px;
+    }
+
+    #topButton:hover {
+        cursor: pointer;
+        background-color: #333;
+    }
+
+    #topButton:active {
+        background-color: #555;
+    }
+
+    #topButton.show {
+        opacity: 1;
+        visibility: visible;
+    }
+
+/* CARD ANİMATİON*/
+
+.imageRotateHorizontal:hover {
+    -moz-animation: spinHorizontal 1s linear;
+    -o-animation: spinHorizontal 1s linear;
+    -webkit-animation: spinHorizontal 1s linear;
+    animation: spinHorizontal 1s linear;
+}
+
+@keyframes spinHorizontal {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.ShowBox {
+    background-color:rgba(255,255,255,.05);
+    border-radius: 15px;
+}
+    .ShowBox img {
+        max-height: 200px;
+        max-width: 200px;
+    }
+.ShowBoxHover {
+    opacity: .025;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    transition: all .75s ease;
+}
+    .ShowBoxHover:hover {
+        opacity: .25;
+    }
+.ShowBox img {
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    margin-top:10%;
+    width:100%;
+    max-width:200px;
+    height:auto;
+    max-height:400px;
+}
+        .ShowBox:hover img {
+            -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+        }
+.nav-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgba(0,128,191,1) !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: linear-gradient(to bottom, rgba(255,255,255,.15) 50%,transparent 50%);
+    background-size: 100% 200%;
+    background-position: bottom center;
+    transition: all .5s ease;
+}
+
+    .nav-item:hover {
+        background-position: top center;
+    }
+
+    .nav-item a {
+        text-decoration: none;
+        color: rgba(0,128,191,1) !important;
+    }
+
+        .nav-item a:hover {
+            color: rgba(28,126,232,1) !important;
+        }
+/* CONTACT ICON*/
+.inner-addon {
+    position: relative;
+}
+    .inner-addon .fas {
+        position: absolute;
+        padding: 10px;
+        margin-top: 31px;   
+        pointer-events: none;
+    }
+.left-addon .fas {
+    left: -2px;
+}
+
+.right-addon .fas {
+    right: 0px;
+}
+.left-addon input {
+    padding-left: 30px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+
+
+/*LEFT MENU*/
+.leftMenu-item {
+    background: linear-gradient(to right, rgba(255,255,255,.2) 50%,transparent 50%);
+    background-size: 200% 100%;
+    background-position: right top;
+    transition: all .2s ease;
+}
+    .leftMenu-item a {
+        text-decoration: none;
+        color: rgba(255,255,255,.8);
+    }
+    .leftMenu-item:hover {
+        background-position: left top;
+        border-left: 3px solid white;
+        margin-left: -3px;
+    }
+
+/*SLİDER CSS*/
+.carousel-caption {
+    background: rgba(0,0,0,.7);
+    opacity: .9;
+}
+/*MENU İTEMS CSS*/
+.nav-title {
+    letter-spacing: .8px;
+    font-weight: 200;
+    text-align: justify;
+    color: orange;
+    font-family: "Charm";
+    font-size: 16px;
+    font-style: oblique;
+    font-variant: normal;
+    line-height: 16px;
+    -webkit-animation: fadeInLeft 2s;
+    animation: fadeInLeft 2s;
+}
+
+#mainmenu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(20, 19, 17,.9);
+    z-index: 1030;
+    padding: 0;
+}
+
+.navbar-nav .dropdown-menu {
+    width: 300px;
+}
+
+.p-2.m-2.text-center.ShowBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.height-avaible{
+    max-height:inherit;
+}
+
+.productTab-md{
+    display:flex;
+    flex-direction:column-reverse;
+}
+
+#About{
+
+}
+.card-img-top{
+    max-height:450px;
+}
+@media (min-width:768px) {
+    .leftMenu {
+        position: fixed;
+        min-width: 15%;
+        max-width: 20%;
+    }
+
+    .productTab-md {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #LangMenu {
+        margin: auto 0;
+    }
+
+    .tab-content {
+        margin: 0 5%;
+    }
+
+    .card-img-top {
+        max-height: 160px;
+    }
+}
+
+.ShowBox img {
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    margin-top: 10%;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    max-height: 300px;
+}
+}
+/*Browser Desing*/
+@media (min-width:1024px) {
+    .fa-slider{
+        font-size:4em;
+    }
+    .leftMenu {
+        position: fixed;
+        min-width: 20%;
+        max-width: 22%;
+    }
+    .scrolled {
+        background-color: rgba(20, 19, 17,1);
+        height: 40px;
+    }
+       
+        .scrolled div.motto {
+            display: none;
+        }
+
+    #LangMenu {
+        margin: auto 0;
+    } 
+    #aboutSlider{
+        max-height:550px;
+    }
+    #aboutSlider .carousel-item{
+        max-height:450px;
+        
+    }
+        #aboutSlider .img {        
+        }
+    .tab-content {
+        margin: 0 10%;
+    }
+    .card-img-top {
+        max-height: 300px;
+    }
+}
+@media (min-width:2000px) {
+    .HeadText {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        color: rgba(255,255,255,.8);
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .ContentText {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        color: rgba(255,255,255,.8);
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .nav-item {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        color: rgba(0,128,191,1) !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        background: linear-gradient(to bottom, rgba(255,255,255,.15) 50%,transparent 50%);
+        background-size: 100% 200%;
+        background-position: bottom center;
+        transition: all .5s ease;
+    }
+    .tab-content{
+        margin:0 20%;
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "asp.net",
+  "private": true,
+  "dependencies": {
+    "boostrap": "",
+    "font-awesome":"",
+    "popper.js": "",
+    "modernizer": "",
+    "jquery": "3.4.1",
+    "animate-css": "3.7.0"
+  }
+}

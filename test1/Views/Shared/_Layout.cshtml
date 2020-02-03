@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+
+    <link href="~/lib/font-awesome/css/all.css" rel=" stylesheet" />
+    <link href="~/lib/boostrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/popper.js/dist/umd/popper.min.js"></script>
+    <script src="~/lib/boostrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <link href="~/lib/main.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+
+    <link href=" https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css" rel="stylesheet" />
+
+    <link href="~/lib/animate-css/animate.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+
+</head>
+<body>
+    <header id="mainmenu">
+        <nav class="navbar navbar-expand-lg navbar-fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand p-0" href="@Url.Action("Index", "Home")"><img class="blog-header-logo" src="~/lib/images/LOGOR.png" /></a>
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars" style="color:#007dbe"></i>
+                </button>
+                <div class="collapse navbar-collapse flex-lg-column flex-wrap" id="navbarSupportedContent">
+                    <div class="container-fluid flex-grow-1">
+                        <div class="d-flex flex-wrap justify-content-between" id="menuclc">
+                            <span class="nav-title">@SharedHtmlLocalizer["Menu.Slogan"]</span>
+                            <div class=" d-flex fa-pull-right justify-content-end px-1" style="background:rgba(255,255,255,.90); border-radius:15px;" id="LangMenu">
+                                <a href="@Url.Action("SetLanguage", "Home", new { culture = "tr-TR" })" class="px-1"><img src="~/lib/images/tr.png" title="TR" alt="TR-Lang" /></a>
+                                <a href="@Url.Action("SetLanguage", "Home", new {culture="en-US"})" class="px-1"><img src="~/lib/images/en.png" title="EN" alt="EN-Lang" /></a>
+                                <span class="pr-1" style="color:rgba(0,0,0,.7); font-size:12px;"><i class="fas fa-headset px-1"></i>444 0 375</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-grow-1">
+                        <ul class="navbar-nav justify-content-center">
+                            <li class="nav-item active mx-1 p-1 MenuButton">
+                                <a href="/@SharedHtmlLocalizer["Menu.Homepage"]">@SharedHtmlLocalizer["Menu.Homepage"]</a>
+                            </li>
+                            <li class="nav-item dropdown mx-1 p-1  ">
+                                <a class="dropdown-toggle" id="refDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    @SharedHtmlLocalizer["Menu.Corporate"]
+                                </a>
+                                <div class="dropdown-menu" style="background-color: rgba(0,0,0,.85);" aria-labelledby="refDrop">
+                                    <a class="d-block p-2 m-2 nav-item" href="http://www.kronosenergy.com.tr">Kronos Energy Web</a>
+                                    <a class="d-block p-2 m-2 nav-item" href="/@SharedHtmlLocalizer["Menu.About"]">@SharedHtmlLocalizer["Menu.About"]</a>
+                                    <a class="d-block p-2 m-2 nav-item" href="/@SharedHtmlLocalizer["Menu.Vision"]">@SharedHtmlLocalizer["Menu.Vision"]</a>
+                                    <a class="d-block p-2 m-2 nav-item" href="/@SharedHtmlLocalizer["Menu.SECG"]">@SharedHtmlLocalizer["Menu.SECG"] </a>
+                                    <a class="d-block p-2 m-2 nav-item" href="/@SharedHtmlLocalizer["Menu.Enviroment-Quality"]">@SharedHtmlLocalizer["Menu.Enviroment-Quality"]</a>
+                                    <a class="d-block p-2 m-2 nav-item" href="/@SharedHtmlLocalizer["Menu.Reference"]">@SharedHtmlLocalizer["Menu.Reference"]</a>
+                                </div>
+                            </li>
+                            <li class="nav-item mx-1 p-1 ">
+                                <a href="/@SharedHtmlLocalizer["Menu.Product"]">@SharedHtmlLocalizer["Menu.Product"]</a>
+                            </li>
+                            <li class="nav-item dropdown mx-1 p-1 ">
+                                <a class="dropdown-toggle" id="appDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    @SharedHtmlLocalizer["Menu.Application"]
+                                </a>
+                                <div class="dropdown-menu" style="background-color: rgba(0,0,0,.85);" aria-labelledby="appDrop">
+                                    @foreach (var item in ViewBag.appNameList)
+                                    {
+                                        <a class="d-block p-2 m-2 nav-item" href="/@SharedHtmlLocalizer["Menu.Application"]/@item">@item</a>
+                                    }
+                                </div>
+                            </li>
+                            <li class="nav-item mx-1 p-1 ">
+                                <a href="/@SharedHtmlLocalizer["Menu.Gallery"]">@SharedHtmlLocalizer["Menu.Gallery"]</a>
+                            </li>
+                            <li class="nav-item mx-1 p-1 ">
+                                <a href="/@SharedHtmlLocalizer["Menu.Contact.Url"]">@SharedHtmlLocalizer["Menu.Contact"]</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <a id="topButton"><i class="fas fa-chevron-up fa-3x" style="color:rgba(255,255,255,.8)"></i></a>
+    <div class="container-fluid" style="margin-top:70px;">
+        <div class="row">
+            @RenderBody()
+
+        </div>
+    </div>
+
+
+    <script src="~/lib/main.js"></script>
+</body>
+</html>

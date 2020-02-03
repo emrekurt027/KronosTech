@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About.MainTitle" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="About.p1" xml:space="preserve">
+    <value>Felsefesinden yola çıkan Kronos Enerji “Kronos Tech” markasıyla, petrol &amp; gaz ve enerji sektöründe 15 yıla yaklaşan bir tecrübe ve bilgi birikimi ile ülkemizde ve dünyada gün geçtikçe artan nüfusun enerji ihtiyacını karşılamak ve bu arada çevre üzerindeki etkisini en aza indirmek amacıyla enerji alanında yaratıcı ve verimli çözümler üretmektedir. Uygulamalarında yüksek teknolojiyi kullanarak ulusal ve uluslararası projelerde kaliteli yenilikçi ve rekabetçi çözümler sunmaktadır.</value>
+  </data>
+  <data name="About.p2" xml:space="preserve">
+    <value>Araştırmacılığını uygulamalar yaparak yenilikçiliğe dönüştürerek istikrarlı başarıyı yakalamak, Kronos Eneriji’yi farklı kılan en önemli felsefelerden biridir. Kronos Enerji’yi farklı kılan en önemli felsefelerinden biridir. Kronos Enerji olarak tasarım yeteneğimizi, mühendislik birikimimizi, üretim gücümüz, kurumsal yapımız, marka politikamız ve güçlü mali yapımız doğrultusunda tasarım, projelendirme, imalat, montaj, devreye alma işlerini yaparken siz değerli müşterilerimize insan değerini ön planda tutarak sağlık, emniyet ve çevre konularında eğitimli personellerimizle dahil olduğumuz her projelerde farklılık yaratarak hizmet vermekteyiz.</value>
+  </data>
+  <data name="About.p3" xml:space="preserve">
+    <value>Şirket bünyesindeki yerli imalatları, geniş bayi ağı ve 7/24 müşteri hizmetleriyle Yıkama Makinası, Köpük Makinası, Süpürge Makinası başlıkları adı altında farklı yeteneklere sahip teknolojik olarak donatılmış imalatları ile siz değerli müşterilerine ileri teknoloji standartlarında hizmet vermektedir.</value>
+  </data>
+  <data name="About.p4" xml:space="preserve">
+    <value>Şirket bünyesinde bulunan, Kronos Kimya ‘ HERA ’ markasıyla, Kronos Makine ‘ KRONOSTECH’ markasıyla, Kronos Mermer ‘HORA MARBLE’ markasıyla ve Kronos Kahve ‘DRINKCUP’ markasıyla her geçen gün büyüyerek, Kronos Enerji çatısı altında hedeflerine emin adımlarla ilerlemektedir. Ayrıca Kronos Enerji olarak sosyal sorumluluk bilinciyle üniversitelerin ilgili bölümlerinde eğitim gören genç beyinlere staj ve çalışma imkânı sunarak, ülke değerlerini koruyan ve yücelten yeni nesillere katkıda bulunmaktayız.</value>
+  </data>
+  <data name="App.MainTitle" xml:space="preserve">
+    <value>Uygulamalar</value>
+  </data>
+  <data name="Appdetail.CollapseButton" xml:space="preserve">
+    <value>Diğer Uygulamalar</value>
+  </data>
+  <data name="Contact.Form.Button" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="Contact.Form.Combo1" xml:space="preserve">
+    <value>Genel Müşteri Servisi</value>
+  </data>
+  <data name="Contact.Form.Combo2" xml:space="preserve">
+    <value>Öneri</value>
+  </data>
+  <data name="Contact.Form.Combo3" xml:space="preserve">
+    <value>Ürün Desteği</value>
+  </data>
+  <data name="Contact.Form.ComboDefault" xml:space="preserve">
+    <value>Seçiniz</value>
+  </data>
+  <data name="Contact.Form.ComboHead" xml:space="preserve">
+    <value>Konu</value>
+  </data>
+  <data name="Contact.Form.Head" xml:space="preserve">
+    <value>İletişime Geç</value>
+  </data>
+  <data name="Contact.Form.Mailinput" xml:space="preserve">
+    <value>Email Adresi</value>
+  </data>
+  <data name="Contact.Form.MessageHead" xml:space="preserve">
+    <value>Mesajınız</value>
+  </data>
+  <data name="Contact.Form.Nameinput" xml:space="preserve">
+    <value>Adınız Soyadınız</value>
+  </data>
+  <data name="Contact.Info.Adress" xml:space="preserve">
+    <value>&lt;b&gt;Adres:&lt;/b&gt; Esenkent Mah. Şair Fuzuli Sok.No:12/2 Ümraniye / İstanbul</value>
+  </data>
+  <data name="Contact.Info.Fax" xml:space="preserve">
+    <value>&lt;b&gt;Fax:&lt;/b&gt;  +90 216 313 86 33</value>
+  </data>
+  <data name="Contact.Info.Name" xml:space="preserve">
+    <value>Kronos Enerji Akaryakıt Mühendislik İnşaat Taahhüt Sanayi Dış Ticaret Ltd. Şti.</value>
+  </data>
+  <data name="Contact.Info.Phone" xml:space="preserve">
+    <value>&lt;b&gt;Tel:&lt;/b&gt;   +90 216 313 86 31-32</value>
+  </data>
+  <data name="Contact.MainTitle" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
+  <data name="Index.Product.AirmaticName" xml:space="preserve">
+    <value>Süpürge &amp; Airmatik</value>
+  </data>
+  <data name="Index.Product.Airmatik.info1" xml:space="preserve">
+    <value>Süpürge kabinleri LED panel tepe lambalı hortum kabini olarak üretilmektedir.</value>
+  </data>
+  <data name="Index.Product.Airmatik.info2" xml:space="preserve">
+    <value>Süpürge hortumu kendinden sarmallı ve esnektir.</value>
+  </data>
+  <data name="Index.Product.Airmatik.info3" xml:space="preserve">
+    <value>3.600 W emiş gücüne sahip ıslak/kuru 3 motor mevcuttur.</value>
+  </data>
+  <data name="Index.Product.Airmatik.info4" xml:space="preserve">
+    <value>70 Lt. Hacimli paslanmaz toz kazanı ve içinde özel PP flanşlı keçe toz torbası mevcuttur.</value>
+  </data>
+  <data name="Index.Product.Airmatik.info5" xml:space="preserve">
+    <value>İki taraflı kapakları sayesinde kolayca bakım yapılır.</value>
+  </data>
+  <data name="Index.Product.HectorName" xml:space="preserve">
+    <value>Hector Araç Bakım </value>
+  </data>
+  <data name="Index.Product.Info1" xml:space="preserve">
+    <value>Belirlenen tutarda madeni para, jeton veya manyetik kart ile çalışır; Para okuyucu paslanmaz metal gövdeye sahiptir, </value>
+  </data>
+  <data name="Index.Product.Info2" xml:space="preserve">
+    <value>Köpük ve Yıkama için birbirinden farklı 2 adet kumbara mevcuttur.</value>
+  </data>
+  <data name="Index.Product.Info3" xml:space="preserve">
+    <value>Kasa kapasitesi dolduğunda merkeze bildirim yapılmaktadır.</value>
+  </data>
+  <data name="Index.Product.Info4" xml:space="preserve">
+    <value>Makine ödeme aldığında merkez sunucuya veriyi aktarmaktadır, bu sayede makine takibi Bayi ve İstasyonlar tarafından anlık olarak raporlanabilir.</value>
+  </data>
+  <data name="Index.Product.Info5" xml:space="preserve">
+    <value>Kale Kilit marka kilit sistemi mevcuttur.</value>
+  </data>
+  <data name="Index.Product.Info6" xml:space="preserve">
+    <value>2 farklı numaratör ile kaç adet araca hizmet verildiği ayrı ayrı takip edilebilir.</value>
+  </data>
+  <data name="Index.Product.Info7" xml:space="preserve">
+    <value>Bütün makinelerimizde Hayat Koruma Ünitesi(kaçak akım rolesi) mevcuttur.</value>
+  </data>
+  <data name="Index.Product.Info8" xml:space="preserve">
+    <value>Tetikli güvenlikli sistemi mevcuttur. Sistem çalışsa bile tetiğe basılmadan motor ve pompa devreye girmez.</value>
+  </data>
+  <data name="Index.Product.Info9" xml:space="preserve">
+    <value>Elektrik tesisatı Köpük ve Yıkama birbirinden bağımsız çalışabilecek şekilde tasarlanmıştır.</value>
+  </data>
+  <data name="Index.Product.InfoHead" xml:space="preserve">
+    <value>Self-Servis Araç Yıkama Makinaları</value>
+  </data>
+  <data name="Index.Product.InfoRed1" xml:space="preserve">
+    <value>sahte parayı tanır.</value>
+  </data>
+  <data name="Index.Product.Royal1" xml:space="preserve">
+    <value>100 Lt'lik tank kapasitesi vardır. Çalışma basıncı 5 bar'dır.</value>
+  </data>
+  <data name="Index.Product.RoyalName" xml:space="preserve">
+    <value>Royal Köpük &amp; Yıkama</value>
+  </data>
+  <data name="Index.Product.SalusName" xml:space="preserve">
+    <value>Salus Köpük &amp; Yıkama</value>
+  </data>
+  <data name="LogoDrinkcup" xml:space="preserve">
+    <value>Kronos Kahve</value>
+  </data>
+  <data name="LogoEnergy" xml:space="preserve">
+    <value>Kronos Enerji</value>
+  </data>
+  <data name="LogoHera" xml:space="preserve">
+    <value>Kronos Kimya</value>
+  </data>
+  <data name="LogoHora" xml:space="preserve">
+    <value>Kronos Mermer</value>
+  </data>
+  <data name="LogoTech" xml:space="preserve">
+    <value>Kronos Makina</value>
+  </data>
+  <data name="Mail.Body" xml:space="preserve">
+    <value>Mailiniz bize ulaştı. Kronos Tech'e gösterdiğiniz ilgiden teşekkür ederiz. Uzmanlarımız en kısa zamanda sizinle iletişime geçecektir.</value>
+  </data>
+  <data name="Mail.Subject" xml:space="preserve">
+    <value>Mailiniz bize ulaştı !</value>
+  </data>
+  <data name="Menu.About" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="Menu.Application" xml:space="preserve">
+    <value>Uygulamalar</value>
+  </data>
+  <data name="Menu.Certificate" xml:space="preserve">
+    <value>Sertifikalar</value>
+  </data>
+  <data name="Menu.Contact" xml:space="preserve">
+    <value>İLETİŞİM</value>
+  </data>
+  <data name="Menu.Contact.Url" xml:space="preserve">
+    <value>İletisim</value>
+  </data>
+  <data name="Menu.Corporate" xml:space="preserve">
+    <value>Kurumsal</value>
+  </data>
+  <data name="Menu.Enviroment-Quality" xml:space="preserve">
+    <value>Çevre-Kalite</value>
+  </data>
+  <data name="Menu.Gallery" xml:space="preserve">
+    <value>Galeri</value>
+  </data>
+  <data name="Menu.Homepage" xml:space="preserve">
+    <value>Anasayfa</value>
+  </data>
+  <data name="Menu.Product" xml:space="preserve">
+    <value>Ürünler</value>
+  </data>
+  <data name="Menu.Reference" xml:space="preserve">
+    <value>Referanslar</value>
+  </data>
+  <data name="Menu.SECG" xml:space="preserve">
+    <value>Sağlık-Emniyet-Çevre</value>
+  </data>
+  <data name="Menu.Slogan" xml:space="preserve">
+    <value>En iyi sadece yeterince iyidir...</value>
+  </data>
+  <data name="Menu.Vision" xml:space="preserve">
+    <value>Vizyon</value>
+  </data>
+  <data name="Product.ButtonDetail" xml:space="preserve">
+    <value>Ürün Bilgisi</value>
+  </data>
+  <data name="Product.ButtonTechnic" xml:space="preserve">
+    <value>Teknik Donanım</value>
+  </data>
+  <data name="Product.CollapseButton" xml:space="preserve">
+    <value>DİĞER ÜRÜNLER</value>
+  </data>
+  <data name="Product.Info.Tech.Cabin" xml:space="preserve">
+    <value>Kabin</value>
+  </data>
+  <data name="Product.Info.Tech.CoinReader" xml:space="preserve">
+    <value>Para Okuyucu</value>
+  </data>
+  <data name="Product.Info.Tech.FoamGun" xml:space="preserve">
+    <value>Köpük Tabancası</value>
+  </data>
+  <data name="Product.Info.Tech.FoamTank" xml:space="preserve">
+    <value>Köpük Tankı</value>
+  </data>
+  <data name="Product.Info.Tech.Hose" xml:space="preserve">
+    <value>Hortum</value>
+  </data>
+  <data name="Product.Info.Tech.KGun" xml:space="preserve">
+    <value>Köpük Tabancası</value>
+  </data>
+  <data name="Product.Info.Tech.KHose" xml:space="preserve">
+    <value>Köpük Hortumu</value>
+  </data>
+  <data name="Product.Info.Tech.MotorPower" xml:space="preserve">
+    <value>Motor Gücü</value>
+  </data>
+  <data name="Product.Info.Tech.Pump" xml:space="preserve">
+    <value>Pompa</value>
+  </data>
+  <data name="Product.Info.Tech.PumpPressure" xml:space="preserve">
+    <value>Pompa Basıncı</value>
+  </data>
+  <data name="Product.Info.Tech.PumpSecurity" xml:space="preserve">
+    <value>Pompa Güvenliği</value>
+  </data>
+  <data name="Product.Info.Tech.Security" xml:space="preserve">
+    <value>Güvenlik</value>
+  </data>
+  <data name="Product.Info.Tech.Suction" xml:space="preserve">
+    <value>Vakum Gücü</value>
+  </data>
+  <data name="Product.Info.Tech.TankCapacity" xml:space="preserve">
+    <value>Tank Kapasitesi</value>
+  </data>
+  <data name="Product.Info.Tech.Timer" xml:space="preserve">
+    <value>Zamanlayıcı</value>
+  </data>
+  <data name="Product.Info.Tech.Voltage" xml:space="preserve">
+    <value>Voltaj</value>
+  </data>
+  <data name="Product.Info.Tech.WaterConsumption" xml:space="preserve">
+    <value>Su Debisi</value>
+  </data>
+  <data name="Product.Info.Tech.YGun" xml:space="preserve">
+    <value>Yıkama Tabancası</value>
+  </data>
+  <data name="Product.Info.Tech.YHose" xml:space="preserve">
+    <value>Yıkama Hortumu</value>
+  </data>
+  <data name="Product.Left.Hera" xml:space="preserve">
+    <value>Oto Bakım Ürünleri (HERA)</value>
+  </data>
+  <data name="Product.MainTitle" xml:space="preserve">
+    <value>Ürünler</value>
+  </data>
+</root>

@@ -1,0 +1,65 @@
+﻿[
+  //celik
+  {
+    "id": 1,
+    "name": "Steel Construction And Construction Works",
+    "path": "celikkonstruksiyon",
+    "images": [
+      "0.png",
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg",
+      "8.jpg",
+      "9.jpg",
+      "10.jpg"
+
+    ],
+    "info": [
+    ],
+    "infohead": "Steel construction building systems,steel roofing,steel construction,manufacturing,mounting and fuel station canopy systems special design within the scope of the project construction works are the services of our experienced technical team."
+  },
+  //akaryakit
+  {
+    "id": 2,
+    "name": "Petrol and LPG Station Installation",
+    "path": "akaryakitkurulum",
+    "images": [
+      "0.jpg",
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg",
+      "8.jpg",
+      "9.jpg",
+      "10.jpg",
+      "12.jpg",
+      "13.jpg",
+      "14.jpg",
+      "15.jpg",
+      "16.jpg",
+      "17.jpg",
+      "18.jpg",
+      "19.jpg"
+
+    ],
+    "info": [
+      "The excavation works of all kinds,",
+      "In Project for the construction of the station in accordance with the technical specifications and the applicable distribution standards building, market , wc , wall cladding and etc…",
+      "Design, manufacture and installation of the canopy and vault",
+      "Fuel tank production,",
+      "Underground pipeline installation works,",
+      "The electrical works of the stations,",
+      "The concrete of field application,",
+      "Commisioning of the station."
+    ],
+    "infohead": "The installation of Fuel and LPG stations with experienced technical personnel of our company , we offer the basis of the standards required and the implementation of material and labour,engineering and consulting with your business project to our valued customers."
+  }
+
+]

@@ -1,0 +1,87 @@
+﻿@model test1.Models.AppfieldShowmodel
+@{
+    ViewData["Title"] = Model.Appfield.name;
+}
+
+<div class="container-fluid">
+    <div class="row">
+        @*LEFT MENU*@
+        <div class="col-md-3">
+            <div class="container d-flex flex-column flex-wrap">
+                <button class="navbar-toggler justify-content-center mt-3 d-md-none" type="button" data-toggle="collapse" data-target="#sidebarE" aria-controls="sidebarE" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="m-0 p-2 ContentText">
+                        <i class="fas fa-bars iconBtn"></i>
+                        @SharedHtmlLocalizer["Appdetail.CollapseButton"]
+                    </span>
+                </button>
+                @*MENU CONTENT*@
+                <div class="collapse leftMenu d-lg-table d-md-flex mx-auto m-2 mt-lg-4 mt-md-1 " id="sidebarE">
+                    <div class="d-flex flex-column justify-content-center my-2">
+                        @for (int i = 0; i < Model.AppFieldNameList.Count; i++)
+                        {
+                            if (Model.AppFieldNameList[i] == Model.Appfield.name)
+                            {
+                                <div class="leftMenu-item ContentText m-1 py-1 pl-0 pr-0" style=" border-left: 3px solid white;background: rgba(0,125,190,.2);margin-left: -3px;">
+                                    <a href="/@SharedHtmlLocalizer["Menu.Application"]/@Model.AppFieldNameList[i]"><i class="fas fa-cogs mx-2 iconBtn"></i>@Model.AppFieldNameList[i]</a>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="leftMenu-item ContentText m-1 py-1 pl-0 pr-0">
+                                    <a href="/@SharedHtmlLocalizer["Menu.Application"]/@Model.AppFieldNameList[i]"><i class="fas fa-cogs mx-2 iconBtn"></i>@Model.AppFieldNameList[i]</a>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        @*AppField LAYER*@
+        <div class="col-md-9 d-flex flex-lg-row flex-wrap justify-content-center my-5">
+
+            <div class="container gallery-container">
+                <div class="container-fluid mb-5">
+                    <h1 class="text-center HeadText">@Model.Appfield.name</h1>
+                    <div class="container">
+                        <p class="page-description ContentText">@Model.Appfield.infohead</p>
+                        @foreach (var item in Model.Appfield.info)
+                        {
+                            <div class="ContentText m-1 py-1 pl-0 pr-0">
+                                <a class="my-1 ml-lg-1 py-1 ">
+                                    <i class="fas fa-chevron-circle-right mr-2 iconCon"></i><span>
+                                        @item
+                                    </span>
+                                </a>
+                            </div>
+                        }
+                    </div>
+                </div>
+
+                <div class="tz-gallery">
+                    <div class="row">
+                        @foreach (var item in Model.Appfield.images)
+                        {
+                            <div class="col-md-4  d-flex w-100 my-1">
+                                <div class="justify-content-center align-self-center">
+                                    <div class="card">
+                                        <a class="lightbox" href="~/lib/images/app/@Model.Appfield.path/@item">
+                                            <img src="~/lib/images/app/@Model.Appfield.path/@item" alt="Park" class="card-img-top">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>

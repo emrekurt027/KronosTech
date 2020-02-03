@@ -1,0 +1,98 @@
+﻿@model test1.Models.GalleryModel
+@{
+    ViewData["Title"] = @SharedHtmlLocalizer["About.MainTitle"];
+}
+
+<div class="container-fluid">
+    <div class="row">
+        @*LEFT MENU*@
+        <div class="col-md-3">
+            <div class="container d-flex flex-column flex-wrap">
+                <button class="navbar-toggler justify-content-center mt-3 d-md-none" type="button" data-toggle="collapse" data-target="#sidebarE" aria-controls="sidebarE" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="m-0 p-2 ContentText">
+                        <i class="fas fa-bars iconBtn"></i>
+                        @SharedHtmlLocalizer["Product.CollapseButton"]
+                    </span>
+                </button>
+                @*MENU CONTENT*@
+                <div class="collapse leftMenu d-lg-table d-md-flex mx-auto m-2 mt-lg-4 mt-md-1 " id="sidebarE">
+                    <div class="d-flex flex-column justify-content-center my-2">
+                        <div class="leftMenu-item ContentText m-1 py-1 pl-0 pr-0">
+                            <a href="/@SharedHtmlLocalizer["Menu.About"]">
+                                <i class="fas fa-building mx-2 "></i>
+                                <span class="my-auto">
+                                    @SharedHtmlLocalizer["Menu.About"]
+                                </span>
+                            </a>
+                        </div>
+                        <div class="leftMenu-item ContentText m-1 py-1 pl-0 pr-0">
+                            <a href="/@SharedHtmlLocalizer["Menu.Vision"]"><i class="fas fa-eye mx-2"></i>@SharedHtmlLocalizer["Menu.Vision"]</a>
+                        </div>
+                        <div class="leftMenu-item ContentText m-1 py-1 pl-0 pr-0">
+                            <a href="/@SharedHtmlLocalizer["Menu.Enviroment-Quality"]"><i class="fas fa-leaf mx-2 "></i>@SharedHtmlLocalizer["Menu.Enviroment-Quality"]</a>
+                        </div>
+                        <div class="leftMenu-item ContentText m-1 py-1 pl-0 pr-0">
+                            <a href="/@SharedHtmlLocalizer["Menu.SECG"]"><i class="fas fa-file-medical-alt mx-2"></i>@SharedHtmlLocalizer["Menu.SECG"] </a>
+                        </div>
+                        <div class="leftMenu-item ContentText m-1 py-1 pl-0 pr-0">
+                            <a href="/@SharedHtmlLocalizer["Menu.Reference"]"><i class="far fa-handshake mx-2"></i>@SharedHtmlLocalizer["Menu.Reference"]</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        @*PRODUCT LAYER*@
+        <div class="col-md-9 d-flex flex-column  mt-5">
+            <h5 class="HeadText">@SharedHtmlLocalizer["Menu.About"]</h5>
+            <p><h2><span class="nav-title">@SharedHtmlLocalizer["Menu.Slogan"]</span></h2></p>
+            <p class="ContentText">@SharedHtmlLocalizer["About.p1"]</p>
+            <p class="ContentText">@SharedHtmlLocalizer["About.p2"]</p>
+            <p class="ContentText">@SharedHtmlLocalizer["About.p3"]</p>
+            <p class="ContentText">@SharedHtmlLocalizer["About.p4"]</p>
+            <div class="container-fluid mt-5">
+                <div class="col-md-12 text-center animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="0">
+                    <h1>MARKALARIMIZ</h1>
+                </div>
+                <div class="row  d-flex flex-lg-row flex-wrap justify-content-center my-5">
+                    <div class="m-2 col-md-2 col-lg-3 col-xl-3 text-center ShowBox position-relative ">
+                        <a href="#">
+                            <img class="card-img bg-dark px-2" src="~/lib/images/logoKronos.png" />
+                            <div class="position-absolute bg-light ShowBoxHover"></div>
+                        </a>
+                        <div class="ContentText mt-3">@SharedHtmlLocalizer["LogoEnergy"]</div>
+                    </div>
+                    <div class="m-2 col-md-2 col-lg-3 col-xl-3 text-center ShowBox position-relative ">
+                        <a href="#">
+                            <img class="card-img bg-dark" src="~/lib/images/hera.png" />
+                            <div class="position-absolute bg-light ShowBoxHover"></div>
+                        </a>
+                        <div class="ContentText mt-3">@SharedHtmlLocalizer["LogoHera"]</div>
+                    </div>
+                    <div class="m-2 col-md-2 col-lg-3 col-xl-3 text-center ShowBox position-relative ">
+                        <a href="#">
+                            <img class="card-img bg-dark" src="~/lib/images/drinkcup.png" />
+                            <div class="position-absolute bg-light ShowBoxHover"></div>
+                        </a>
+                        <div class="ContentText mt-3">@SharedHtmlLocalizer["LogoDrinkcup"]</div>
+                    </div>
+                    <div class="m-2 col-md-2 col-lg-3 col-xl-3 text-center ShowBox position-relative ">
+                        <a href="#">
+                            <img class="card-img bg-dark" src="~/lib/images/hora.png" />
+                            <div class="position-absolute bg-light ShowBoxHover"></div>
+                        </a>
+                        <div class="ContentText mt-3">@SharedHtmlLocalizer["LogoHora"]</div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>

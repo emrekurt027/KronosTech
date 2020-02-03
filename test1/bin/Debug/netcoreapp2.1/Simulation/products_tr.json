@@ -1,0 +1,224 @@
+﻿[
+  //royalyikama
+  {
+    "id": 1,
+    "name": "ROYAL Yıkama & Köpük",
+    "path": "royalyikama",
+    "images": [ "1.png","2.png","3.png","4.png" ],
+    "info": [
+      "50 Kr., 1 TL,2TL,Jeton ve Manuel START/STOP şalter ile çalışır; sahte parayı tanır.",
+      "Elektrik tesisatı Köpük ve Yıkama birbirinden bağımsız çalışabilecek şekilde tasarlanmıştır.",
+      "Köpük ve Yıkama için birbirinden farklı 2 adet kumbara mevcuttur.",
+      "Sıfırlanamayan 2 farklı numaratör ile kaç adet araca hizmet verildiği ayrı ayrı takip edilebilir.(Opsiyonel)",
+      "200 bar basınçlı su üreten yerli yada İtalyan pompa mevcuttur.",
+      "Tetikli güvenlik sistemi mevcuttur. Sistem çalışsa bile tetiğe basılmadan motor ve pompa devreye girmez.",
+      "Dakikada 15 litre su tüketimi vardır. Elektrik tüketimi ile birlikte araç başına maliyet maksimum 30 kuruştur. (3 dk. servis süresi için )",
+      "100 Lt'lik tank kapasitesi vardır.Çalışma basıncı 5 bar'dır.",
+      "Her bir tank dolumunda minimum 35 araç köpüklenir. (75 sn. servis süresi için)",
+      "Araç başına birim maliyeti kimyasal ve elektrik ile birlikte maksimum 20 kuruştur. (75 sn. servis süresi için)",
+      "*Opsiyonel özellikler için fiyatlar değişiklik gösterir."
+    ],
+    "infotech": [
+      {
+        "dataName": "Voltage",
+        "dataVal": "Three-phase 380V./50-60 Hz."
+      },
+      {
+        "dataName": "CoinReader",
+        "dataVal": "2 Adet Bağımsız Mekanik"
+      },
+      {
+        "dataName": "Timer",
+        "dataVal": "2 Adet 1-6 Dakika"
+      },
+      {
+        "dataName": "Security",
+        "dataVal": "Dış:2 Adet Kabin; İç 2 Adet Kilitli"
+      },
+      {
+        "dataName": "Cabin",
+        "dataVal": "Galvaniz Sac üzeri Elektrostatik Fırın Boya ,ABS KAPAK (Krom Opsiyon)"
+      },
+      {
+        "dataName": "Pump",
+        "dataVal": "Özmen ( Yerli üretim, ISO 9001 Kalite güvencesiyle) veya Interpump marka Italyan pompa"
+      },
+      {
+        "dataName": "PumpPressure",
+        "dataVal": "200 Bar/ 250 Bar"
+      },
+      {
+        "dataName": "WaterConsumption",
+        "dataVal": "15 lt/min"
+      },
+      {
+        "dataName": "MotorPower",
+        "dataVal": "5 Kw, 7.5 Hp"
+      },
+      {
+        "dataName": "PumpSecurity",
+        "dataVal": "By-pass sistemli Regülatör"
+      },
+      {
+        "dataName": "YGun",
+        "dataVal": "Manuel/Tetikli"
+      },
+      {
+        "dataName": "KGun",
+        "dataVal": "Tetikli Kumandalı"
+      },
+      {
+        "dataName": "YHose",
+        "dataVal": "10M. ,R2 çift kat çelik tel örgü"
+      },
+      {
+        "dataName": "KHose",
+        "dataVal": "8M."
+      },
+      {
+        "dataName": "TankCapacity",
+        "dataVal": "90Lt."
+      },
+      {
+        "dataName": "FoamTank",
+        "dataVal": "Sıvama Sac üzeri Elektrostatik Fırın Boya"
+      }
+    ]
+  },
+  //yikamakopuk
+  {
+    "id": 2,
+    "name": "Salus Yıkama & Köpük",
+    "path": "salusyikama",
+    "images": [ "1.png", "2.png", "3.png", "4.png", "5.png" ],
+    "info": [
+      "50 Kr., 1 TL,2TL,Jeton ve Manuel START/STOP şalter ile çalışır; sahte parayı tanır.",
+      "Elektrik tesisatı Köpük ve Yıkama birbirinden bağımsız çalışabilecek şekilde tasarlanmıştır.",
+      "Köpük ve Yıkama için birbirinden farklı 2 adet kumbara mevcuttur.",
+      "Sıfırlanamayan 2 farklı numaratör ile kaç adet araca hizmet verildiği ayrı ayrı takip edilebilir.(Opsiyonel)",
+      "200 bar basınçlı su üreten yerli yada İtalyan pompa mevcuttur.",
+      "Tetikli güvenlik sistemi mevcuttur. Sistem çalışsa bile tetiğe basılmadan motor ve pompa devreye girmez.",
+      "Dakikada 15 litre su tüketimi vardır. Elektrik tüketimi ile birlikte araç başına maliyet maksimum 30 kuruştur. (3 dk. servis süresi için )",
+      "90 Lt'lik tank kapasitesi vardır.Çalışma basıncı 5 bar'dır.",
+      "Her bir tank dolumunda minimum 35 araç köpüklenir. (75 sn. servis süresi için)",
+      "Araç başına birim maliyeti kimyasal ve elektrik ile birlikte maksimum 20 kuruştur. (75 sn. servis süresi için)",
+      "*Opsiyonel özellikler için fiyatlar değişiklik gösterir."
+    ],
+    "infotech": [
+      {
+        "dataName": "Voltage",
+        "dataVal": "Three-phase 380V./50-60 Hz."
+      },
+      {
+        "dataName": "CoinReader",
+        "dataVal": "2 Adet Bağımsız Mekanik"
+      },
+      {
+        "dataName": "Timer",
+        "dataVal": "2 Adet 1-6 Dakika"
+      },
+      {
+        "dataName": "Security",
+        "dataVal": "Dış:2 Adet Kabin; İç 2 Adet Kilitli"
+      },
+      {
+        "dataName": "Cabin",
+        "dataVal": "Galvaniz Sac üzeri Elektrostatik Fırın Boya ,ABS KAPAK (Krom Opsiyon)"
+      },
+      {
+        "dataName": "Pump",
+        "dataVal": "Özmen ( Yerli üretim, ISO 9001 Kalite güvencesiyle) veya Interpump marka Italyan pompa"
+      },
+      {
+        "dataName": "PumpPressure",
+        "dataVal": "200 Bar/ 250 Bar"
+      },
+      {
+        "dataName": "WaterConsumption",
+        "dataVal": "15 lt/min"
+      },
+      {
+        "dataName": "MotorPower",
+        "dataVal": "5 Kw, 7.5 Hp"
+      },
+      {
+        "dataName": "PumpSecurity",
+        "dataVal": "By-pass sistemli Regülatör"
+      },
+      {
+        "dataName": "YGun",
+        "dataVal": "Manuel/Tetikli"
+      },
+      {
+        "dataName": "KGun",
+        "dataVal": "Tetikli Kumandalı"
+      },
+      {
+        "dataName": "YHose",
+        "dataVal": "10M. ,R2 çift kat çelik tel örgü"
+      },
+      {
+        "dataName": "KHose",
+        "dataVal": "8M."
+      },
+      {
+        "dataName": "TankCapacity",
+        "dataVal": "90Lt."
+      },
+      {
+        "dataName": "FoamTank",
+        "dataVal": "Sıvama Sac üzeri Elektrostatik Fırın Boya"
+      }
+    ]
+  },
+  //OTO SÜPÜRGE
+  {
+    "id": 3,
+    "name": "Oto Süpürge & Airmatik",
+    "path": "otosupurge",
+    "images": [ "1.png"],
+    "info": [
+      "50 Kr., 1 TL,2TL,Jeton ve Manuel START/STOP şalter ile çalışır; sahte parayı tanır.",
+      "Zaman rölesi sayesinde servis süresi 1-6 dakika arasında ayarlanabilir.",
+      "Sıfırlanamayan numaratör ile kaç adet araca hizmet verildiği kolayca takip edilebilir.",
+      "70 Lt. hacimli paslanmaz toz kazanı ve içinde özel PP Flanşlı keçe toz torbası mevcuttur.",
+      "3.600 Watt emiş gücüne sahip ıslak/kuru 3 motor mevcuttur.",
+      "Araç başına birim maliyeti maksimum 10 kuruştur.(4 dk. servis süresi için)"
+    ],
+    "infotech": [
+      {
+        "dataName": "Voltage",
+        "dataVal": "Mono-phase 230V./50-60 Hz."
+      },
+      {
+        "dataName": "Suction",
+        "dataVal": "3.600 W (1200W x 3 Motor (3 Fan)) "
+      },
+      {
+        "dataName": "CoinReader",
+        "dataVal": "Mekanik"
+      },
+      {
+        "dataName": "Timer",
+        "dataVal": "1-6 Dakika"
+      },
+      {
+        "dataName": "Security",
+        "dataVal": "Dış:2 Adet Kabin; İç Kilitli Metal Kasa"
+      },
+      {
+        "dataName": "Cabin",
+        "dataVal": "Galvaniz Sac üzeri Elektrostatik Fırın Boya ,ABS KAPAK"
+      },
+      {
+        "dataName": "Hose",
+        "dataVal": "3 M. Triplex"
+      },
+      {
+        "dataName": "TankCapacity",
+        "dataVal": "70 Lt., Paslanmaz."
+      }
+    ]
+  }
+
+]

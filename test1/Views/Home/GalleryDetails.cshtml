@@ -1,0 +1,38 @@
+﻿@model test1.Models.GalleryModel
+@{
+    ViewData["Title"] = Model.name;
+}
+
+<div class="container-fluid">
+    <div class="row">
+        @*AppField LAYER*@
+        <div class="col-md-12 d-flex flex-lg-row flex-wrap justify-content-center my-5">
+            <div class="container gallery-container">
+                <div class="container-fluid mb-5">
+                    <h1 class="text-center HeadText">@Model.name</h1>
+                    <div class="tz-gallery">
+                        <div class="row">
+                            @foreach (var item in Model.images)
+                            {
+                                <div class="col-md-4  d-flex w-100 my-1">
+                                    <div class="justify-content-center align-self-center">
+                                        <div class="card">
+                                            <a class="lightbox" href="~/lib/images/gallery/@Model.path/@item">
+                                                <img src="~/lib/images/gallery/@Model.path/@item" alt="Park" class="card-img-top">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>

@@ -1,0 +1,274 @@
+C:\Users\gafle\source\repos\test1\test1\bin\Debug\netcoreapp2.1\test1.deps.json
+C:\Users\gafle\source\repos\test1\test1\bin\Debug\netcoreapp2.1\test1.runtimeconfig.json
+C:\Users\gafle\source\repos\test1\test1\bin\Debug\netcoreapp2.1\test1.runtimeconfig.dev.json
+C:\Users\gafle\source\repos\test1\test1\bin\Debug\netcoreapp2.1\test1.dll
+C:\Users\gafle\source\repos\test1\test1\bin\Debug\netcoreapp2.1\test1.pdb
+C:\Users\gafle\source\repos\test1\test1\bin\Debug\netcoreapp2.1\test1.Views.dll
+C:\Users\gafle\source\repos\test1\test1\bin\Debug\netcoreapp2.1\test1.Views.pdb
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.csprojAssemblyReference.cache
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.csproj.CoreCompileInputs.cache
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorAssemblyInfo.cache
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorAssemblyInfo.cs
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.AssemblyInfoInputs.cache
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.AssemblyInfo.cs
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.TagHelpers.input.cache
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.TagHelpers.output.cache
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorCoreGenerate.cache
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorTargetAssemblyInfo.cache
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorTargetAssemblyInfo.cs
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.Views.pdb
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.dll
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.pdb
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.csproj.CopyComplete
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Product.g.cshtml.cs
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Reference.g.cshtml.cs
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_RefPartial.g.cshtml.cs
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.csproj.GenerateResource.cache
+C:\Users\gafle\source\repos\test1\test1\bin\Debug\netcoreapp2.1\tr-TR\test1.resources.dll
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.Resources.Controllers.HomeController.tr-TR.resources
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\tr-TR\test1.resources.dll
+C:\Users\gafle\source\repos\test1\test1\bin\Debug\netcoreapp2.1\en-US\test1.resources.dll
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\test1.Resources.Controllers.HomeController.en-US.resources
+C:\Users\gafle\source\repos\test1\test1\obj\Debug\netcoreapp2.1\en-US\test1.resources.dll
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\bin\Debug\netcoreapp2.1\test1.deps.json
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\bin\Debug\netcoreapp2.1\test1.runtimeconfig.json
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\bin\Debug\netcoreapp2.1\test1.runtimeconfig.dev.json
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\bin\Debug\netcoreapp2.1\test1.dll
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\bin\Debug\netcoreapp2.1\test1.pdb
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\bin\Debug\netcoreapp2.1\en-US\test1.resources.dll
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\bin\Debug\netcoreapp2.1\tr-TR\test1.resources.dll
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\bin\Debug\netcoreapp2.1\test1.Views.dll
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\bin\Debug\netcoreapp2.1\test1.Views.pdb
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.csprojAssemblyReference.cache
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.Resources.Controllers.HomeController.en-US.resources
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.Resources.Controllers.HomeController.tr-TR.resources
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.csproj.GenerateResource.cache
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.csproj.CoreCompileInputs.cache
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorAssemblyInfo.cache
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorAssemblyInfo.cs
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.AssemblyInfoInputs.cache
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.AssemblyInfo.cs
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\en-US\test1.resources.dll
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\tr-TR\test1.resources.dll
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.TagHelpers.input.cache
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.TagHelpers.output.cache
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorCoreGenerate.cache
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Product.g.cshtml.cs
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Reference.g.cshtml.cs
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_RefPartial.g.cshtml.cs
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorTargetAssemblyInfo.cache
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorTargetAssemblyInfo.cs
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.Views.pdb
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.dll
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.pdb
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\test1.csproj.CopyComplete
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\ProductDetails.g.cshtml.cs
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\AppfieldDetails.g.cshtml.cs
+C:\Users\gafle\Desktop\kronos enerji\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Appfield.g.cshtml.cs
+C:\Users\gafle\Desktop\test1\test1\bin\Debug\netcoreapp2.1\test1.deps.json
+C:\Users\gafle\Desktop\test1\test1\bin\Debug\netcoreapp2.1\test1.runtimeconfig.json
+C:\Users\gafle\Desktop\test1\test1\bin\Debug\netcoreapp2.1\test1.runtimeconfig.dev.json
+C:\Users\gafle\Desktop\test1\test1\bin\Debug\netcoreapp2.1\test1.dll
+C:\Users\gafle\Desktop\test1\test1\bin\Debug\netcoreapp2.1\test1.pdb
+C:\Users\gafle\Desktop\test1\test1\bin\Debug\netcoreapp2.1\en-US\test1.resources.dll
+C:\Users\gafle\Desktop\test1\test1\bin\Debug\netcoreapp2.1\tr-TR\test1.resources.dll
+C:\Users\gafle\Desktop\test1\test1\bin\Debug\netcoreapp2.1\test1.Views.dll
+C:\Users\gafle\Desktop\test1\test1\bin\Debug\netcoreapp2.1\test1.Views.pdb
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.csprojAssemblyReference.cache
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.Resources.Controllers.HomeController.en-US.resources
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.Resources.Controllers.HomeController.tr-TR.resources
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.csproj.GenerateResource.cache
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.csproj.CoreCompileInputs.cache
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorAssemblyInfo.cache
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorAssemblyInfo.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.AssemblyInfoInputs.cache
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.AssemblyInfo.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\en-US\test1.resources.dll
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\tr-TR\test1.resources.dll
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.TagHelpers.input.cache
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.TagHelpers.output.cache
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorCoreGenerate.cache
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Appfield.g.cshtml.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\AppfieldDetails.g.cshtml.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Product.g.cshtml.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\ProductDetails.g.cshtml.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Reference.g.cshtml.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorTargetAssemblyInfo.cache
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorTargetAssemblyInfo.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.Views.pdb
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.dll
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.pdb
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.csproj.CopyComplete
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Gallery.g.cshtml.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\GalleryDetails.g.cshtml.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Enviroment.g.cshtml.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\SECG.g.cshtml.cs
+C:\Users\gafle\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Vision.g.cshtml.cs
+C:\Users\emre\Desktop\test1\test1\bin\Debug\netcoreapp2.1\test1.deps.json
+C:\Users\emre\Desktop\test1\test1\bin\Debug\netcoreapp2.1\test1.runtimeconfig.json
+C:\Users\emre\Desktop\test1\test1\bin\Debug\netcoreapp2.1\test1.runtimeconfig.dev.json
+C:\Users\emre\Desktop\test1\test1\bin\Debug\netcoreapp2.1\test1.dll
+C:\Users\emre\Desktop\test1\test1\bin\Debug\netcoreapp2.1\test1.pdb
+C:\Users\emre\Desktop\test1\test1\bin\Debug\netcoreapp2.1\en-US\test1.resources.dll
+C:\Users\emre\Desktop\test1\test1\bin\Debug\netcoreapp2.1\tr-TR\test1.resources.dll
+C:\Users\emre\Desktop\test1\test1\bin\Debug\netcoreapp2.1\test1.Views.dll
+C:\Users\emre\Desktop\test1\test1\bin\Debug\netcoreapp2.1\test1.Views.pdb
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.csprojAssemblyReference.cache
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.Resources.Controllers.HomeController.en-US.resources
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.Resources.Controllers.HomeController.tr-TR.resources
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.csproj.GenerateResource.cache
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.csproj.CoreCompileInputs.cache
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorAssemblyInfo.cache
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorAssemblyInfo.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.AssemblyInfoInputs.cache
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.AssemblyInfo.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\en-US\test1.resources.dll
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\tr-TR\test1.resources.dll
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.TagHelpers.input.cache
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.TagHelpers.output.cache
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorCoreGenerate.cache
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Appfield.g.cshtml.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\AppfieldDetails.g.cshtml.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Enviroment.g.cshtml.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Gallery.g.cshtml.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\GalleryDetails.g.cshtml.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Product.g.cshtml.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\ProductDetails.g.cshtml.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Reference.g.cshtml.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\SECG.g.cshtml.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Vision.g.cshtml.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorTargetAssemblyInfo.cache
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorTargetAssemblyInfo.cs
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.Views.pdb
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.dll
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.pdb
+C:\Users\emre\Desktop\test1\test1\obj\Debug\netcoreapp2.1\test1.csproj.CopyComplete
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\bower.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\Simulation\application_en.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\Simulation\application_tr.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\Simulation\gallery_en.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\Simulation\gallery_tr.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\Simulation\products_en.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\Simulation\products_tr.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\Simulation\ref.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\test1.deps.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\test1.runtimeconfig.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\test1.runtimeconfig.dev.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\test1.dll
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\test1.pdb
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\en-US\test1.resources.dll
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\tr-TR\test1.resources.dll
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\test1.Views.dll
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\bin\Debug\netcoreapp2.1\test1.Views.pdb
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\test1.csprojAssemblyReference.cache
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\test1.Resources.Controllers.HomeController.en-US.resources
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\test1.Resources.Controllers.HomeController.tr-TR.resources
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\test1.csproj.GenerateResource.cache
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorAssemblyInfo.cache
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorAssemblyInfo.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\test1.AssemblyInfoInputs.cache
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\test1.AssemblyInfo.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\en-US\test1.resources.dll
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\tr-TR\test1.resources.dll
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\test1.TagHelpers.input.cache
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\test1.TagHelpers.output.cache
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorCoreGenerate.cache
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Appfield.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\AppfieldDetails.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Enviroment.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Gallery.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\GalleryDetails.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Product.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\ProductDetails.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Reference.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\SECG.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Vision.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorTargetAssemblyInfo.cache
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorTargetAssemblyInfo.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\test1.Views.pdb
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\test1.dll
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\test1.pdb
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\test1\test1\obj\Debug\netcoreapp2.1\test1.csproj.CopyComplete
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\bower.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\Simulation\application_en.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\Simulation\application_tr.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\Simulation\gallery_en.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\Simulation\gallery_tr.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\Simulation\products_en.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\Simulation\products_tr.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\Simulation\ref.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\test1.deps.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\test1.runtimeconfig.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\test1.runtimeconfig.dev.json
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\test1.dll
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\test1.pdb
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\en-US\test1.resources.dll
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\tr-TR\test1.resources.dll
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\test1.Views.dll
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\bin\Debug\netcoreapp2.1\test1.Views.pdb
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\test1.csprojAssemblyReference.cache
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\test1.Resources.Controllers.HomeController.en-US.resources
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\test1.Resources.Controllers.HomeController.tr-TR.resources
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\test1.csproj.GenerateResource.cache
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorAssemblyInfo.cache
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorAssemblyInfo.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\test1.AssemblyInfoInputs.cache
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\test1.AssemblyInfo.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\en-US\test1.resources.dll
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\tr-TR\test1.resources.dll
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\test1.TagHelpers.input.cache
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\test1.TagHelpers.output.cache
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorCoreGenerate.cache
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Appfield.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\AppfieldDetails.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Enviroment.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Gallery.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\GalleryDetails.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Product.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\ProductDetails.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Reference.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\SECG.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Home\Vision.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorTargetAssemblyInfo.cache
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\test1.RazorTargetAssemblyInfo.cs
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\test1.Views.pdb
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\test1.dll
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\test1.pdb
+C:\Users\emre\Desktop\PROJELER\OTOMASYON\WEB\Kronostech\test1\test1\obj\Debug\netcoreapp2.1\test1.csproj.CopyComplete
